@@ -1,0 +1,5 @@
+Money = int(input("Enter the amount of money you have:"))
+Apple = int(input("Enter the price of the Apple:"))
+Pieces = int(Money/Apple)
+Change = int(Money-(Pieces*Apple))
+print(f"You can buy {Pieces} apples and your change is {Change} pesos.")
